@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Interfaces\BoardingHouseRepositoryInterface;
 use App\Interfaces\TransactionRepositoryInterface;
+use App\Http\Requests\CustomerInformationStoreRequest;
 use Illuminate\Http\Request;
 
 class BookingController extends Controller
